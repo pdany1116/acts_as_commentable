@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'acts_as_commentable'
-  s.version = '7.1.0'
+  s.version = '7.1.1'
 
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
   s.authors = ['Cosmin Radoi, Jack Dempsey, Xelipe, Chris Eppstein']
@@ -31,6 +31,6 @@ Gem::Specification.new do |s|
   s.summary = 'Plugin/gem that provides comment functionality'
   s.license = 'MIT'
 
-  s.add_dependency 'activerecord', '~> 7.1.0'
+  s.add_dependency 'activerecord', '~> 7.1.5.1'
   s.metadata['rubygems_mfa_required'] = 'true'
 end
